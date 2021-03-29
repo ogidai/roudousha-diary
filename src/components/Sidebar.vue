@@ -5,11 +5,12 @@
                 <b-icon v-b-toggle.my-sidebar icon="x" font-scale="2"></b-icon>
             </span>
             <ul class="nav-list">
-                <li><a href="">ホーム</a></li>
-                <li><a href="">労働者情報</a></li>
-                <li><a href="">プライバシーポリシー</a></li>
-                <li><a href="">利用規約</a></li>
-                <li><a href="">お問い合わせ</a></li>
+                <li><router-link to="/">ホーム</router-link></li>
+                <li><router-link to="/post">日記を書く</router-link></li>
+                <li><router-link to="/user">労働者情報</router-link></li>
+                <li><router-link to="/privacypolicy">プライバシーポリシー</router-link></li>
+                <li><router-link to="/terms">利用規約</router-link></li>
+                <li><router-link to="/contact">お問い合わせ</router-link></li>
                 <li><a href=""><img src="../assets/line.png" alt="" class="line-icon"></a></li>
             </ul>
             </nav>
@@ -19,9 +20,6 @@
 <script>
 export default {
     name: 'Sidebar',
-    methods: {
-        
-    }
 }
 </script>
 

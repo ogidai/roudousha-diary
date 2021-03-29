@@ -40,15 +40,17 @@ header {
   left: 0;
   width: 100%;
   border-bottom: 1px solid #ddd;
+  z-index: 10;
 }
 .header-inner {
   display: flex;
   justify-content: center;
   align-content: center;
-  padding: 10px 30px;
+  padding: 0 30px;
+  height: 60px;
 }
 .header-logo {
-  padding: 0;
+  padding: 15px 0 0 0;
   margin: 0;
   width: 150px;
   font-size: 30px;
